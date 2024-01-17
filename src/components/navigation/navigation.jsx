@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.png";
 import "./navigation.css"
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
     return (
@@ -15,9 +16,9 @@ const Navigation = () => {
 
             <div className="nav">
                 <ul className="nav-elements">
-                    <li className="nav-element">About</li>
-                    <li className="nav-element">Portfolio</li>
-                    <li className="nav-element">Contact</li>
+                    <Link to="/"><li className="nav-element">About</li></Link>
+                    <Link to="/portfolio"><li className="nav-element">Portfolio</li></Link>
+                    <Link to="/contact"><li className="nav-element">Contact</li></Link>
                 </ul>
             </div>
         </div>

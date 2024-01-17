@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider, } from 'react-router-dom';
 import Root from "./routes/root";
 import About from './routes/about/about';
 import Portfolio from './routes/portfolio/portfolio';
+import Contact from './routes/contact/contact';
 import './index.css'
 import './fonts.css'
 
@@ -13,7 +14,8 @@ const router = createBrowserRouter([
     element: <Root />,
     children: [
       { index: true, element: <About /> },
-      {path: "portfolio", element: <Portfolio />},
+      { path: "portfolio", element: <Portfolio /> },
+      { path: "contact", element: <Contact />},
     ],
   },
 ]);
