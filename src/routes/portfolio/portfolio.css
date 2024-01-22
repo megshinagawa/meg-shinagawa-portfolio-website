@@ -1,0 +1,20 @@
+.portfolio-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.portfolio-object {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border: #343434 solid 2px;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.portfolio-image {
+    height: 10rem;
+    border-radius: 10px;
+}

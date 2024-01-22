@@ -44,6 +44,7 @@ ul {
 hr {
   border: #343434 solid 1.5px;
   width: 100%;
+  margin-bottom: 1rem;
 }
 
 p {
