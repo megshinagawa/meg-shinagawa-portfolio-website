@@ -2,6 +2,9 @@
 My personal portfolio website made using React. 
 ## Coding Log
 Newest entry is at the top. 
+
+
+
 #### 2024/01/16 
 ##### Goal for today:
 - [X] Learn the basics of React Router
